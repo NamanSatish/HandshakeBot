@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/build: geom
 .PHONY : hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 
 hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	cd /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build/hand_pose_tracking && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/hand_pose_tracking && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/src/hand_pose_tracking /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build/hand_pose_tracking /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build/hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/hand_pose_tracking /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/hand_pose_tracking /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hand_pose_tracking/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

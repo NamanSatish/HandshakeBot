@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/src/hand_pose_tracking
+# Install script for directory: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/hand_pose_tracking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build/hand_pose_tracking/catkin_generated/installspace/hand_pose_tracking.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/hand_pose_tracking/catkin_generated/installspace/hand_pose_tracking.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hand_pose_tracking/cmake" TYPE FILE FILES
-    "/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build/hand_pose_tracking/catkin_generated/installspace/hand_pose_trackingConfig.cmake"
-    "/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/build/hand_pose_tracking/catkin_generated/installspace/hand_pose_trackingConfig-version.cmake"
+    "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/hand_pose_tracking/catkin_generated/installspace/hand_pose_trackingConfig.cmake"
+    "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/hand_pose_tracking/catkin_generated/installspace/hand_pose_trackingConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hand_pose_tracking" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/src/hand_pose_tracking/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hand_pose_tracking" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/hand_pose_tracking/package.xml")
 endif()
 

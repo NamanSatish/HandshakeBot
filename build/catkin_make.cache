@@ -1,2 +1,2 @@
-hand_pose_tracking
--DCATKIN_DEVEL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/devel -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/install -G Unix Makefiles
+hand_pose_tracking:mirroring
+-DCATKIN_DEVEL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install -G Unix Makefiles
