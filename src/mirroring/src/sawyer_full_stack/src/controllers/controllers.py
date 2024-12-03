@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-Starter script for lab1. 
+Starter script for lab1.
 Author: Chris Correa, Valmik Prabhu
 """
 
@@ -51,17 +51,17 @@ class Controller:
 
     def step_control(self, target_position, target_velocity, target_acceleration):
         """
-        makes a call to the robot to move according to it's current position and the desired position 
-        according to the input path and the current time. Each Controller below extends this 
-        class, and implements this accordingly.  
+        makes a call to the robot to move according to it's current position and the desired position
+        according to the input path and the current time. Each Controller below extends this
+        class, and implements this accordingly.
 
         Parameters
         ----------
-        target_position : 7x' or 6x' :obj:`numpy.ndarray` 
+        target_position : 7x' or 6x' :obj:`numpy.ndarray`
             desired positions
-        target_velocity : 7x' or 6x' :obj:`numpy.ndarray` 
+        target_velocity : 7x' or 6x' :obj:`numpy.ndarray`
             desired velocities
-        target_acceleration : 7x' or 6x' :obj:`numpy.ndarray` 
+        target_acceleration : 7x' or 6x' :obj:`numpy.ndarray`
             desired accelerations
         """
         pass
@@ -81,14 +81,14 @@ class Controller:
 
         Returns
         -------
-        target_position : 7x' or 6x' :obj:`numpy.ndarray` 
+        target_position : 7x' or 6x' :obj:`numpy.ndarray`
             desired positions
-        target_velocity : 7x' or 6x' :obj:`numpy.ndarray` 
+        target_velocity : 7x' or 6x' :obj:`numpy.ndarray`
             desired velocities
-        target_acceleration : 7x' or 6x' :obj:`numpy.ndarray` 
+        target_acceleration : 7x' or 6x' :obj:`numpy.ndarray`
             desired accelerations
         current_index : int
-            waypoint index at which search was terminated 
+            waypoint index at which search was terminated
         """
 
         # a very small number (should be much smaller than rate)
@@ -170,9 +170,9 @@ class Controller:
     def plot_results(
         self,
         times,
-        actual_positions, 
-        actual_velocities, 
-        target_positions, 
+        actual_positions,
+        actual_velocities,
+        target_positions,
         target_velocities
     ):
         """
@@ -207,7 +207,7 @@ class Controller:
         for i in range(len(times)):
             positions_dict = joint_array_to_dict(actual_positions[i], self._limb)
             fk = self._kin.forward_position_kinematics(joint_values=positions_dict)
-            
+
             actual_workspace_positions[i, :] = fk[:3]
             actual_workspace_velocities[i, :] = \
                 self._kin.jacobian(joint_values=positions_dict)[:3].dot(actual_velocities[i])
@@ -295,11 +295,11 @@ class Controller:
         plt.ylabel("Error Angle of End Effector (rad)")
         print("Close the plot window to continue")
         plt.show()
-        
+
 
     def execute_path(self, path, rate=200, timeout=None, log=False):
         """
-        takes in a path and moves the sawyer in order to follow the path.  
+        takes in a path and moves the sawyer in order to follow the path.
 
         Parameters
         ----------
@@ -353,9 +353,9 @@ class Controller:
 
             # Get the desired position, velocity, and effort
             (
-                target_position, 
-                target_velocity, 
-                target_acceleration, 
+                target_position,
+                target_velocity,
+                target_acceleration,
                 current_index
             ) = self.interpolate_path(path, t, current_index)
 
@@ -380,9 +380,9 @@ class Controller:
         if log:
             self.plot_results(
                 times,
-                actual_positions, 
-                actual_velocities, 
-                target_positions, 
+                actual_positions,
+                actual_velocities,
+                target_positions,
                 target_velocities
             )
         return True
@@ -405,7 +405,7 @@ class FeedforwardJointVelocityController(Controller):
 class PIDJointVelocityController(Controller):
     """
     Look at the comments on the Controller class above.  This controller turns the desired workspace position and velocity
-    into desired JOINT position and velocity.  Then it compares the difference between the sawyer's 
+    into desired JOINT position and velocity.  Then it compares the difference between the sawyer's
     current JOINT position and velocity and desired JOINT position and velocity to come up with a
     joint velocity command and sends that to the sawyer.
     """
@@ -421,19 +421,21 @@ class PIDJointVelocityController(Controller):
         Kw : 7x' :obj:`numpy.ndarray` of anti-windup constants
         """
         Controller.__init__(self, limb, kin)
-        self. Kp = np.diag(Kp)
+        self.Kp = np.diag(Kp)
         self.Ki = np.diag(Ki)
         self.Kd = np.diag(Kd)
         self.Kw = Kw
-        
+
         self.integ_error = np.zeros(7)
-        
+        self.prev_time = rospy.get_time()
+        self.prev_error = 0
+
         self.is_joinstpace_controller = True
 
     def step_control(self, target_position, target_velocity, target_acceleration):
         """
-        makes a call to the robot to move according to it's current position and the desired position 
-        according to the input path and the current time. Each Controller below extends this 
+        makes a call to the robot to move according to it's current position and the desired position
+        according to the input path and the current time. Each Controller below extends this
         class, and implements this accordingly. This method should call
         self._limb.joint_angle and self._limb.joint_velocity to get the current joint position and velocity
         and self._limb.set_joint_velocities() to set the joint velocity to something.  You may find
@@ -447,17 +449,25 @@ class PIDJointVelocityController(Controller):
         """
         current_position = get_joint_positions(self._limb)
         current_velocity = get_joint_velocities(self._limb)
-        
-        # TODO: implement PID control to set the joint velocities. 
-        error = target_position - current_position
-        e_dot = target_velocity - current_velocity
+        time = rospy.get_time()
+        dt = time - self.prev_time
 
-        # self.integ_error = self.Kw @ self.integ_error + error
+        # TODO: implement PID control to set the joint velocities.
+        # position_error = target_position - current_position
+        velocity_error = target_velocity - current_velocity
 
-        P = self.Kp @ error
-        I = self.Ki @ self.integ_error
-        D = self.Kd @ e_dot
-     
-        controller_velocity = target_velocity + P + I + D
+        # p_p = self.Kp @ position_error
+        p_v = self.Kp @ velocity_error
+
+        i_v = self.Ki @ (self.integ_error + (velocity_error*dt))
+
+        # i_p = self.Ki @ (self.integ_error + velocity_error * 0.1)
+
+        d_v = self.Kd @ (velocity_error - self.prev_error)/dt
+
+        self.integ_error = np.multiply(self.Kw, self.integ_error) + velocity_error
+        self.prev_error = velocity_error
+        self.prev_time = time
+        controller_velocity = target_velocity + p_v + i_v + d_v
 
         self._limb.set_joint_velocities(joint_array_to_dict(controller_velocity, self._limb))
