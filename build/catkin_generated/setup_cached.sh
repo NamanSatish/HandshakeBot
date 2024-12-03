@@ -8,3 +8,4 @@
 
 # modified environment variables
 export PWD='/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build'
+export PYTHONPATH="/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/python3/dist-packages:$PYTHONPATH"
