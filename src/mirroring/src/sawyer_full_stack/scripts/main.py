@@ -180,8 +180,8 @@ def main():
     tuck()
     
     # this is used for sending commands (velocity, torque, etc) to the robot
-    # ik_solver = IK("base", "stp_022312TP99620_tip_1") # for amir
-    ik_solver = IK("base", "right_gripper_tip")
+    ik_solver = IK("base", "stp_022312TP99620_tip_1") # for amir
+    # ik_solver = IK("base", "right_gripper_tip")
     limb = intera_interface.Limb("right")
     kin = sawyer_kinematics("right")
 

@@ -181,15 +181,13 @@ class LinearTrajectory(Trajectory):
             desired configuration in workspace coordinates of the end effector
         """
         if time <= self.total_time / 2.0:
-            # TODO: calculate the position of the end effector at time t, 
             # For the first half of the trajectory, maintain a constant acceleration
             pos = self.start_position + (.5)*self.acceleration*(time**2)
         else:
-            # TODO: Calculate the position of the end effector at time t, 
             # For the second half of the trajectory, maintain a constant acceleration
             # Hint: Calculate the remaining distance to the goal position. 
             pos = (
-                self.start_position + (self.goal_position - self.start_position) / 2
+                (self.start_position + self.goal_position) / 2
                 + self.v_max * (time - self.total_time / 2)
                 - 0.5 * self.acceleration * (time - self.total_time / 2)**2
             )
@@ -220,7 +218,7 @@ class LinearTrajectory(Trajectory):
         else:
             # TODO: start slowing the velocity down from the maximum one
             # For the second half of the trajectory, maintain a constant deceleration
-            linear_vel = self.v_max - (self.acceleration * (self.total_time - time))
+            linear_vel = self.v_max - (self.acceleration * (time - self.total_time / 2))
         return np.hstack((linear_vel, np.zeros(3)))
 
 class CircularTrajectory(Trajectory):
