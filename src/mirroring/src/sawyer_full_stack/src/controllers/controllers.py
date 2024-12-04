@@ -240,7 +240,7 @@ class Controller:
                 plt.ylabel("Joint " + str(joint) + " Position Error")
                 plt.legend()
 
-                plt.subplot(joint_num,2,2*joint+2)
+                plt.subploFeedforwardJointVelocityControllert(joint_num,2,2*joint+2)
                 plt.plot(times, actual_velocities[:,joint], label='Actual')
                 plt.plot(times, target_velocities[:,joint], label='Desired')
                 plt.xlabel("Time (t)")
@@ -427,17 +427,8 @@ class PIDJointVelocityController(Controller):
         self.Kw = Kw
         
         self.integ_error = np.zeros(7)
-        
-        self.is_joinstpace_controller = True
-
-    def step_control(self, target_position, target_velocity, target_acceleration):
+        joint_array_to_dict
         """
-        makes a call to the robot to move according to it's current position and the desired position 
-        according to the input path and the current time. Each Controller below extends this 
-        class, and implements this accordingly. This method should call
-        self._limb.joint_angle and self._limb.joint_velocity to get the current joint position and velocity
-        and self._limb.set_joint_velocities() to set the joint velocity to something.  You may find
-        joint_array_to_dict() in utils.py useful
 
         Parameters
         ----------
