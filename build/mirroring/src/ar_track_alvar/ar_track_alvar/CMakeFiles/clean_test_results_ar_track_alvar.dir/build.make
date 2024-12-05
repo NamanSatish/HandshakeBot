@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build
 
 # Utility rule file for clean_test_results_ar_track_alvar.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build
 include mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/progress.make
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/test_results/ar_track_alvar
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/test_results/ar_track_alvar
 
 clean_test_results_ar_track_alvar: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar
 clean_test_results_ar_track_alvar: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/build.make
@@ -67,10 +67,10 @@ mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_tra
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/build
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/clean:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_ar_track_alvar.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_ar_track_alvar.dir/cmake_clean.cmake
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/clean
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/depend:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/clean_test_results_ar_track_alvar.dir/depend
 

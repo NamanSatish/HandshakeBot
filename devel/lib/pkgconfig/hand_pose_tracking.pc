@@ -1,4 +1,4 @@
-prefix=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel
+prefix=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel
 
 Name: hand_pose_tracking
 Description: Description of hand_pose_tracking

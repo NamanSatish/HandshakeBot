@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build
 
 # Utility rule file for _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build
 include mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/progress.make
 
 mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ar_track_alvar_msgs /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarker.msg geometry_msgs/Pose:geometry_msgs/Point:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/PoseStamped
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs && ../../../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py ar_track_alvar_msgs /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarker.msg std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/PoseStamped:geometry_msgs/Pose
 
 _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker: mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker
 _ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker: mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/build.make
@@ -67,10 +67,10 @@ mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/build
 
 mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/clean:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs && $(CMAKE_COMMAND) -P CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/cmake_clean.cmake
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/clean
 
 mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/depend:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar_msgs/CMakeFiles/_ar_track_alvar_msgs_generate_messages_check_deps_AlvarMarker.dir/depend
 

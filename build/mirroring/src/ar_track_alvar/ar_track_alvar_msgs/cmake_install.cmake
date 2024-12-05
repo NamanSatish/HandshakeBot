@@ -1,8 +1,8 @@
-# Install script for directory: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs
+# Install script for directory: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,55 +39,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs/msg" TYPE FILE FILES
-    "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarker.msg"
-    "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarkers.msg"
+    "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarker.msg"
+    "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/msg/AlvarMarkers.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs/cmake" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs/cmake" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/include/ar_track_alvar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/include/ar_track_alvar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/common-lisp/ros/ar_track_alvar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/common-lisp/ros/ar_track_alvar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/gennodejs/ros/ar_track_alvar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/gennodejs/ros/ar_track_alvar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/python3/dist-packages/ar_track_alvar_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/python3/dist-packages/ar_track_alvar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/python3/dist-packages/ar_track_alvar_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/python3/dist-packages/ar_track_alvar_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs/cmake" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs/cmake" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs/cmake" TYPE FILE FILES
-    "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgsConfig.cmake"
-    "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgsConfig-version.cmake"
+    "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgsConfig.cmake"
+    "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/catkin_generated/installspace/ar_track_alvar_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ar_track_alvar_msgs" TYPE FILE FILES "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs/package.xml")
 endif()
 

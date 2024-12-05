@@ -67,14 +67,14 @@ set(baxter_pykdl_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(baxter_pykdl_SOURCE_PREFIX /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/baxter_pykdl)
-  set(baxter_pykdl_DEVEL_PREFIX /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel)
+  set(baxter_pykdl_SOURCE_PREFIX /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/baxter_pykdl)
+  set(baxter_pykdl_DEVEL_PREFIX /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel)
   set(baxter_pykdl_INSTALL_PREFIX "")
   set(baxter_pykdl_PREFIX ${baxter_pykdl_DEVEL_PREFIX})
 else()
   set(baxter_pykdl_SOURCE_PREFIX "")
   set(baxter_pykdl_DEVEL_PREFIX "")
-  set(baxter_pykdl_INSTALL_PREFIX /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install)
+  set(baxter_pykdl_INSTALL_PREFIX /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/install)
   set(baxter_pykdl_PREFIX ${baxter_pykdl_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install/lib;/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib;/opt/ros/eecsbot_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/install/lib;/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib;/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/devel/lib;/opt/ros/eecsbot_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

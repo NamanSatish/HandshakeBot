@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libkinect_filtering.pdb"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libkinect_filtering.so"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libkinect_filtering.pdb"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libkinect_filtering.so"
   "CMakeFiles/kinect_filtering.dir/src/kinect_filtering.cpp.o"
 )
 

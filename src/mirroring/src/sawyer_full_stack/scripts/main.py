@@ -77,7 +77,7 @@ def lookup_tag(tag_number):
     tag_pos = [getattr(trans.transform.translation, dim) for dim in ('x', 'y', 'z')]
     return np.array(tag_pos)
 
-def get_trajectory(limb, kin, ik_solver, target_pos, args):
+def get_trajectory(limb, kin, ik_solver, target_pos, target_orientation, args):
     """
     Returns an appropriate robot trajectory for the specified task.  You should 
     be implementing the path functions in paths.py and call them here
@@ -108,9 +108,14 @@ def get_trajectory(limb, kin, ik_solver, target_pos, args):
 
     if task == 'line':
         # target_pos = target_pos[0]
-        # target_pos[2] += 0.4 #linear path moves to a Z position above AR Tag.
+        # target_pos[2] += 0.4 # linear path moves to a Z position above AR Tag.
         print("TARGET POSITION:", target_pos)
-        trajectory = LinearTrajectory(start_position=current_position, goal_position=target_pos, total_time=9)
+        trajectory = LinearTrajectory(
+            start_position=current_position,
+            goal_position=target_pos,
+            goal_orientation=target_orientation,
+            total_time=9,
+        )
     else:
         raise ValueError('task {} not recognized'.format(task))
     
@@ -177,24 +182,26 @@ def main():
 
     rospy.init_node('moveit_node')
     
-    tuck()
+    # tuck()
     
     # this is used for sending commands (velocity, torque, etc) to the robot
-    ik_solver = IK("base", "stp_022312TP99620_tip_1") # for amir
-    # ik_solver = IK("base", "right_gripper_tip")
+    # ik_solver = IK("base", "stp_022312TP99620_tip_1") # for amir
+    ik_solver = IK("base", "right_gripper_tip")
     limb = intera_interface.Limb("right")
     kin = sawyer_kinematics("right")
 
     # Lookup the AR tag position.
     # tag_pos = [lookup_tag(marker) for marker in args.ar_marker]
-    target_pos = np.array([0.5, 0.3, 0.3])
+    # target_pos = np.array([0.7266252, 0.00754888, 0.30714707])
+    target_pos = np.array([0.75, 0.2, 0.4])
+    target_orientation = np.array([-0.5, 0.5, -0.5, 0.5])
 
     # Get an appropriate RobotTrajectory for the task (circular, linear, or square)
     # If the controller is a workspace controller, this should return a trajectory where the
     # positions and velocities are workspace positions and velocities.  If the controller
     # is a jointspace or torque controller, it should return a trajectory where the positions
     # and velocities are the positions and velocities of each joint.
-    robot_trajectory = get_trajectory(limb, kin, ik_solver, target_pos, args)
+    robot_trajectory = get_trajectory(limb, kin, ik_solver, target_pos, target_orientation, args)
 
     # This is a wrapper around MoveIt! for you to use.  We use MoveIt! to go to the start position
     # of the trajectory

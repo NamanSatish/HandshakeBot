@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/ar_track_alvar/individualMarkersNoKinect"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/ar_track_alvar/individualMarkersNoKinect.pdb"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/ar_track_alvar/individualMarkersNoKinect"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/ar_track_alvar/individualMarkersNoKinect.pdb"
   "CMakeFiles/individualMarkersNoKinect.dir/nodes/IndividualMarkersNoKinect.cpp.o"
 )
 

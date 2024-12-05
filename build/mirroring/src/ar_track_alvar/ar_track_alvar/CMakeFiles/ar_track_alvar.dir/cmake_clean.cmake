@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.pdb"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.pdb"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so"
   "CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o"
   "CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o"
   "CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o"

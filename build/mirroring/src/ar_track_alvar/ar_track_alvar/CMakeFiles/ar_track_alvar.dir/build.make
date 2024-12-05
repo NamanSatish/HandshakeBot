@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src
+CMAKE_SOURCE_DIR = /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build
+CMAKE_BINARY_DIR = /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build
 
 # Include any dependencies generated for this target.
 include mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/depend.make
@@ -58,381 +58,381 @@ include mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.di
 include mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp > CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp > CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Bitset.cpp -o CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp > CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp > CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Camera.cpp -o CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureDevice.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CaptureFactory_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp > CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp > CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/ConnectedComponents.cpp -o CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp > CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp > CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/CvTestbed.cpp -o CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/DirectoryIterator_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp > CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp > CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Draw.cpp -o CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp > CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp > CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/FileFormatUtils.cpp -o CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp > CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp > CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Filter.cpp -o CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp > CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp > CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Kalman.cpp -o CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp > CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp > CMakeFiles/ar_track_alvar.dir/src/Line.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Line.cpp -o CMakeFiles/ar_track_alvar.dir/src/Line.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp > CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp > CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Marker.cpp -o CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp > CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp > CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MarkerDetector.cpp -o CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarker.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerBundle.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp > CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/MultiMarkerInitializer.cpp -o CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Mutex_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp > CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp > CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Optimization.cpp -o CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Plugin_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp > CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp > CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Pose.cpp -o CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp > CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp > CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Rotation.cpp -o CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp > CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Threads_unix.cpp -o CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.s
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/flags.make
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o -c /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp > CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp > CMakeFiles/ar_track_alvar.dir/src/Util.cpp.i
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar/src/Util.cpp -o CMakeFiles/ar_track_alvar.dir/src/Util.cpp.s
 
 # Object files for target ar_track_alvar
 ar_track_alvar_OBJECTS = \
@@ -469,266 +469,266 @@ ar_track_alvar_OBJECTS = \
 # External object files for target ar_track_alvar
 ar_track_alvar_EXTERNAL_OBJECTS =
 
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build.make
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libcv_bridge.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libimage_transport.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libpcl_ros_filter.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libpcl_ros_tf.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_search.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libqhull.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libnodeletlib.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libbondcpp.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_common.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_io.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libz.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpng.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtiff.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libexpat.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosbag.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosbag_storage.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libclass_loader.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroslib.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librospack.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroslz4.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblz4.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtopic_tools.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libresource_retriever.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtf.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtf2_ros.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libactionlib.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libmessage_filters.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroscpp.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosconsole.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtf2.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librostime.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libcpp_common.so
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
-/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so"
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_track_alvar.dir/link.txt --verbose=$(VERBOSE)
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Bitset.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Camera.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureDevice.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CaptureFactory_unix.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/ConnectedComponents.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/CvTestbed.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/DirectoryIterator_unix.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Draw.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/FileFormatUtils.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Filter.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Kalman.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Line.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Marker.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MarkerDetector.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarker.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerBundle.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/MultiMarkerInitializer.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Mutex_unix.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Optimization.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Plugin_unix.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Pose.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Rotation.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Threads_unix.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/src/Util.cpp.o
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build.make
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libcv_bridge.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libimage_transport.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libpcl_ros_filter.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libpcl_ros_tf.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_search.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_filters.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_ml.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libqhull.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libnodeletlib.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libbondcpp.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_common.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpcl_io.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkChartsCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonColor-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtksys-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonDataModel-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonSystem-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonTransforms-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonExecutionModel-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeneral-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkCommonComputationalGeometry-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkInfovisCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersExtraction-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersStatistics-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingFourier-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkalglib-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContext2D-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersGeometry-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersSources-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingFreeType-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libfreetype.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libz.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersModeling-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingSources-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionStyle-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkInteractionWidgets-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersHybrid-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingColor-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingGeneral-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkImagingHybrid-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOImage-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkDICOMParser-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkmetaio-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpng.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtiff.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingAnnotation-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingVolume-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOXML-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOXMLParser-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libexpat.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOGeometry-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOLegacy-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkIOPLY-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingLOD-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkViewsContext2D-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingContextOpenGL2-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingOpenGL2-7.1.so.7.1p.1
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosbag.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosbag_storage.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libclass_loader.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroslib.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librospack.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroslz4.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblz4.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtopic_tools.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libresource_retriever.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtf.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtf2_ros.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libactionlib.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libmessage_filters.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroscpp.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libxmlrpcpp.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosconsole.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libtf2.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libroscpp_serialization.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/librostime.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /opt/ros/noetic/lib/libcpp_common.so
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.2.0
+/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so: mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so"
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ar_track_alvar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build: /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libar_track_alvar.so
+mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build: /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libar_track_alvar.so
 
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/build
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/clean:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/ar_track_alvar.dir/cmake_clean.cmake
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar && $(CMAKE_COMMAND) -P CMakeFiles/ar_track_alvar.dir/cmake_clean.cmake
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/clean
 
 mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/depend:
-	cd /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/build/mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : mirroring/src/ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar.dir/depend
 

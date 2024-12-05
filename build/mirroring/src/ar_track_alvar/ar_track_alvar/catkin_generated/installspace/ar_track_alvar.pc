@@ -1,4 +1,4 @@
-prefix=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install
+prefix=/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/install
 
 Name: ar_track_alvar
 Description: Description of ar_track_alvar

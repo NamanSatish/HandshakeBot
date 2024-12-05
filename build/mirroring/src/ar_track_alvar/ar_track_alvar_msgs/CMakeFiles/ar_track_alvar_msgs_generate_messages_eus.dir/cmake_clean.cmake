@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs/manifest.l"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarker.l"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarkers.l"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs/manifest.l"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarker.l"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarkers.l"
   "CMakeFiles/ar_track_alvar_msgs_generate_messages_eus"
 )
 

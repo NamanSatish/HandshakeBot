@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libmedianFilter.pdb"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib/libmedianFilter.so"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libmedianFilter.pdb"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib/libmedianFilter.so"
   "CMakeFiles/medianFilter.dir/src/medianFilter.cpp.o"
 )
 

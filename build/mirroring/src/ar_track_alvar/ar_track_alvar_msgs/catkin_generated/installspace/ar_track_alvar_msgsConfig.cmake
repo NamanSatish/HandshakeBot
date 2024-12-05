@@ -67,14 +67,14 @@ set(ar_track_alvar_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(ar_track_alvar_msgs_SOURCE_PREFIX /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs)
-  set(ar_track_alvar_msgs_DEVEL_PREFIX /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel)
+  set(ar_track_alvar_msgs_SOURCE_PREFIX /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/src/ar_track_alvar/ar_track_alvar_msgs)
+  set(ar_track_alvar_msgs_DEVEL_PREFIX /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel)
   set(ar_track_alvar_msgs_INSTALL_PREFIX "")
   set(ar_track_alvar_msgs_PREFIX ${ar_track_alvar_msgs_DEVEL_PREFIX})
 else()
   set(ar_track_alvar_msgs_SOURCE_PREFIX "")
   set(ar_track_alvar_msgs_DEVEL_PREFIX "")
-  set(ar_track_alvar_msgs_INSTALL_PREFIX /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install)
+  set(ar_track_alvar_msgs_INSTALL_PREFIX /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/install)
   set(ar_track_alvar_msgs_PREFIX ${ar_track_alvar_msgs_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install/lib;/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/lib;/opt/ros/eecsbot_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/install/lib;/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/lib;/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/src/mirroring/devel/lib;/opt/ros/eecsbot_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

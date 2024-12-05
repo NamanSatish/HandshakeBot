@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarker.js"
-  "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarkers.js"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarker.js"
+  "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarkers.js"
   "CMakeFiles/ar_track_alvar_msgs_generate_messages_nodejs"
 )
 

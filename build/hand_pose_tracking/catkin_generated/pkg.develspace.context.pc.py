@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "hand_pose_tracking"
-PROJECT_SPACE_DIR = "/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel"
+PROJECT_SPACE_DIR = "/home/cc/ee106a/fa24/class/ee106a-abs/ros_workspaces2/Handshake/HandshakeBot/devel"
 PROJECT_VERSION = "0.0.0"
