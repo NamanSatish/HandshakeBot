@@ -1,0 +1,20 @@
+# Ignore catkin build directories
+/build/
+/devel/
+
+# Ignore log and temporary files
+log/
+*.swp
+*.bak
+*.tmp
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore other editor or OS-specific files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
