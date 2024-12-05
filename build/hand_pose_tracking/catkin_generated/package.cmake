@@ -1,6 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "hand_pose_tracking")
 set(hand_pose_tracking_VERSION "0.0.0")
-set(hand_pose_tracking_MAINTAINER "ee106a-ahs <ee106a-ahs@todo.todo>")
+set(hand_pose_tracking_MAINTAINER "ee106a-aha <ee106a-aha@todo.todo>")
 set(hand_pose_tracking_PACKAGE_FORMAT "2")
 set(hand_pose_tracking_BUILD_DEPENDS "geometry_msgs" "rospy" "std_msgs")
 set(hand_pose_tracking_BUILD_EXPORT_DEPENDS "geometry_msgs" "rospy" "std_msgs")

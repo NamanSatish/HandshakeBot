@@ -1,2 +1,2 @@
-hand_pose_tracking
--DCATKIN_DEVEL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/devel -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-ahs/HandshakeBot/install -G Unix Makefiles
+hand_pose_tracking:mirroring/src/ar_track_alvar/ar_track_alvar:mirroring/src/ar_track_alvar/ar_track_alvar_msgs:mirroring/src/baxter_pykdl:mirroring/src/sawyer_full_stack
+-DCATKIN_DEVEL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/devel -DCMAKE_INSTALL_PREFIX=/home/cc/ee106a/fa24/class/ee106a-aha/HandshakeBot/install -G Unix Makefiles
