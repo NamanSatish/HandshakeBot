@@ -11,6 +11,7 @@ import time
 import sys
 import logging
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 
 import pyrealsense2 as rs
 
@@ -139,12 +140,16 @@ with HandLandmarker.create_from_options(options) as landmarker:
                 
                 n_pts = get3DCoord(wrist_points, intrinsics=intrinsics)
                 print(n_pts.shape)
-                print(n_pts[:, 2])
+                #print(n_pts[:, 2])
+                #print(n_pts)
+                sample_window = 5
+                for r in range(0, n_pts.shape[0], sample_window):
+                    print(f'[{np.median(n_pts[r:r+sample_window,0])*0.001}, {np.median(n_pts[r:r+sample_window,1])*0.001}, {np.median(n_pts[r:r+sample_window,2])*0.001}],')
                 fig = plt.figure()
                 axes = fig.add_subplot(projection='3d')
                 axes.plot3D(n_pts[:,0], n_pts[:,1], n_pts[:,2], marker='o')
                 #Set all axis to have the same scale
-                axes.set_box_aspect([np.ptp(n_pts[:,0]), np.ptp(n_pts[:,1]), np.ptp(n_pts[:,2])])
+                #axes.set_box_aspect([np.ptp(n_pts[:,0]), np.ptp(n_pts[:,1]), np.ptp(n_pts[:,2])])
                 #Color x, y, z axis
                 axes.set_xlabel('X')
                 axes.set_ylabel('Y')

@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import rospy
 from moveit_msgs.srv import GetPositionIK, GetPositionIKRequest, GetPositionIKResponse
-from geometry_msgs.msg import PoseStamped
+from geometry_msgs.msg import PoseStamped, TransformStamped, Transform, Vector3
 from moveit_commander import MoveGroupCommander
 import numpy as np
 from numpy import linalg
@@ -54,7 +54,7 @@ def lookup_tag(tag_number):
     You can use either this function or try starting the scripts/tag_pub.py script.  More info
     about that script is in that file.  
 
-    Parameters
+    Parametersar_pos
     ----------
     tag_number : int
 
@@ -90,23 +90,67 @@ def main():
     # Create the function used to call the service
     compute_ik = rospy.ServiceProxy('compute_ik', GetPositionIK)
 
-    ar_pos, ar_trans = lookup_tag(5)
-    print(ar_pos)
+    # ar_pos, ar_trans = lookup_tag(5)
+    
+    # manually writing out the transform
+    ar_trans = TransformStamped()
+    ar_trans.header.frame_id = "base"
+    ar_trans.child_frame_id = "ar_marker_5"
+
+
+    ar_trans.transform.translation.x = 1.1520635773864734
+    ar_trans.transform.translation.y = 0.09403840735301512
+    ar_trans.transform.translation.z = 0.3057204338258193
+    ar_trans.transform.rotation.x = -0.5550855293497743
+    ar_trans.transform.rotation.y = 0.4649585908687069
+    ar_trans.transform.rotation.z = 0.4652051640233256
+    ar_trans.transform.rotation.w = -0.5091932042455977
+    # print(ar_pos)
+    print("transform: \n", ar_trans)
 
     #tuck()
 
-    hand_point = [-0.111, -0.00076, 0.440]
-    hand_point_trans = PoseStamped()
-    hand_point_trans.pose.position.x = -0.111
-    hand_point_trans.pose.position.y = -0.00076
-    hand_point_trans.pose.position.z = 0.440
-    hand_point_trans.pose.orientation.x = 0
-    hand_point_trans.pose.orientation.y = 1.0
-    hand_point_trans.pose.orientation.z = 0
-    hand_point_trans.pose.orientation.w = 0
+    hand_poses_raw = [
+[0.2792954458227116, 0.20746030396144485, 0.6270000002634611],
+[0.24614906862195018, 0.1985790580698161, 0.6520000002825395],
+[0.2305477627607013, 0.18835894277739518, 0.6450000002643731],
+[0.2178943275923651, 0.17291054853257334, 0.6270000003071394],
+[0.1909910393610335, 0.16106525230357463, 0.6200000003094642],
+[0.14055625862154905, 0.15921390534708685, 0.6460000002205467],
+[0.11097308418590665, 0.18003259607286234, 0.6480000002630933],
+[0.10325810592331426, 0.20527095118681957, 0.6550000002944559],
+[0.10822435146626055, 0.17257472474368754, 0.6530000003145734],
+[0.11648899890722152, 0.07787504074297669, 0.6570000004248486],
+[0.08914648733988616, -0.03245027889705123, 0.6950000002763516],
+[0.02647198196104959, -0.07895627006748025, 0.7300000002158563],
+[-0.04365718476919022, -0.05517612564525457, 0.7510000001332132],
+[-0.09597827025380092, 0.04001302723391594, 0.7620000000577821],
+[-0.08090262237270539, 0.1601825111134928, 0.7530000001346298],
+[-0.01078914234642985, 0.2493981723364537, 0.7390000000792593],
+[0.09274029849907937, 0.26435344943814115, 0.6930000001808035],
+[0.18321075617958604, 0.20754475265929645, 0.65800000028659],
+[0.19973568897137775, 0.11878768307809145, 0.6590000004201225],
+[0.1570671685047608, 0.038208126272829684, 0.6710000003634502],
+[0.07620319488338892, -0.0074318084541192975, 0.6810000002824395],
+[-0.011866743793299134, 0.014948482276233955, 0.6900000001883503],
+[-0.04520379166685437, 0.10826905573207053, 0.6930000001543165],
+[0.0273170809868344, 0.2022444462845896, 0.6730000001436685],
+[0.11496056850127137, 0.22861632267795567, 0.6440000002081814],
+    ]
 
-    hand_rel_base = do_transform_pose(hand_point_trans, ar_trans)
+    hand_poses = []
+    for pose in hand_poses_raw:
+        hand_point_trans = PoseStamped()
+        hand_point_trans.pose.position.x = pose[0]
+        hand_point_trans.pose.position.y = pose[1]
+        hand_point_trans.pose.position.z = pose[2]
+        hand_point_trans.pose.orientation.x = 0
+        hand_point_trans.pose.orientation.y = 1.0
+        hand_point_trans.pose.orientation.z = 0
+        hand_point_trans.pose.orientation.w = 0
 
+        hand_rel_base = do_transform_pose(hand_point_trans, ar_trans)
+        hand_poses.append(hand_rel_base.pose)
 
     
     '''target_poses = [
@@ -116,60 +160,66 @@ def main():
         [0.935, 0.207, 0.443, 0.5, 0.5, 0.5, 0.5],
     ]'''
 
-    pos = [hand_rel_base.pose.position.x, hand_rel_base.pose.position.y, hand_rel_base.pose.position.z, 0, 1, 0, 0]
+    # pos = [hand_rel_base.pose.position.x, hand_rel_base.pose.position.y, hand_rel_base.pose.position.z, 0, 1, 0, 0]
     
     while not rospy.is_shutdown():
-            # input('Press [ Enter ]: ')
-            
-            # Construct the request
-            request = GetPositionIKRequest()
-
-            request.ik_request.group_name = "right_arm"
-
-            # If a Sawyer does not have a gripper, replace '_gripper_tip' with '_wrist' instead
-            link = "right_gripper_tip"
-
-            request.ik_request.ik_link_name = link
-            # request.ik_request.attempts = 20
-            request.ik_request.pose_stamped.header.frame_id = "base"
-            
+        # input('Press [ Enter ]: ')
         
-            # Set the desired orientation for the end effector HERE
+        # Construct the request
+        request = GetPositionIKRequest()
 
-            request.ik_request.pose_stamped.pose.position.x = pos[0]
-            request.ik_request.pose_stamped.pose.position.y = pos[1]
-            request.ik_request.pose_stamped.pose.position.z = pos[2] 
-            request.ik_request.pose_stamped.pose.orientation.x = pos[3]
-            request.ik_request.pose_stamped.pose.orientation.y = pos[4]
-            request.ik_request.pose_stamped.pose.orientation.z = pos[5]
-            request.ik_request.pose_stamped.pose.orientation.w = pos[6]
+        request.ik_request.group_name = "right_arm"
+
+        # If a Sawyer does not have a gripper, replace '_gripper_tip' with '_wrist' instead
+        link = "right_gripper_tip"
+
+        request.ik_request.ik_link_name = link
+        # request.ik_request.attempts = 20
+        request.ik_request.pose_stamped.header.frame_id = "base"
+        
+
+        # Set the desired orientation for the end effector HERE
+
+        # request.ik_request.pose_stamped.pose.position.x = pos[0]
+        # request.ik_request.pose_stamped.pose.position.y = pos[1]
+        # request.ik_request.pose_stamped.pose.position.z = pos[2] 
+        # request.ik_request.pose_stamped.pose.orientation.x = pos[3]
+        # request.ik_request.pose_stamped.pose.orientation.y = pos[4]
+        # request.ik_request.pose_stamped.pose.orientation.z = pos[5]
+        # request.ik_request.pose_stamped.pose.orientation.w = pos[6]
+        
+        try:
+            # Send the request to the service
+            # response = compute_ik(request)
             
-            try:
-                # Send the request to the service
-                response = compute_ik(request)
-                
-                # Print the response HERE
-                print("hi: ", response)
-                group = MoveGroupCommander("right_arm")
+            # # Print the response HERE
+            # print("hi: ", response)
+            group = MoveGroupCommander("right_arm")
 
-                # Setting position and orientation target
-                #group.set_position_target(pos[:3])
-                group.set_pose_target(request.ik_request.pose_stamped)
+            # Setting position and orientation target
+            # group.set_position_target(pos[:3])
+            # group.set_pose_target(request.ik_request.pose_stamped)
+            group.set_pose_targets(hand_poses)
 
-                # TRY THIS
-                # Setting just the position without specifying the orientation
-                # group.set_position_target([0.5, 0.5, 0.0])
+            # TRY THIS
+            # Setting just the position without specifying the orientation
+            # group.set_position_target([0.5, 0.5, 0.0])
 
-                # Plan IK
-                plan = group.plan()
-                user_input = input("Enter 'y' if the trajectory looks safe on RVIZ")
-                
-                # Execute IK if safe
-                if user_input == 'y':
-                    group.execute(plan[1])
-                
-            except rospy.ServiceException as e:
-                print("Service call failed: %s"%e)
+            # Plan IK
+            plan = group.plan()
+            # user_input = input("Enter 'y' if the trajectory looks safe on RVIZ")
+            
+            # Execute IK if safe
+            # if user_input == 'y':
+            #     group.execute(plan[1])
+            # elif user_input == 'g':
+            #     break
+            group.execute(plan[1])
+
+
+
+        except rospy.ServiceException as e:
+            print("Service call failed: %s"%e)
 
         
 
