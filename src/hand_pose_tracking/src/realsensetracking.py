@@ -14,6 +14,10 @@ import matplotlib.pyplot as plt
 
 import pyrealsense2 as rs
 
+#import rospy messages 
+import rospy
+from geometry_msgs.msg import PoseStamped
+
 
 last_timestamp = 0
 rendered_image = None
@@ -45,6 +49,8 @@ def draw_hand_landmarks_on_image(rgb_image, detection_result):
         hand_landmarks_proto.landmark.extend([
         landmark_pb2.NormalizedLandmark(x=landmark.x, y=landmark.y, z=landmark.z) for landmark in hand_landmarks
         ])
+        #Save as pose stamped message   
+
         solutions.drawing_utils.draw_landmarks(
         annotated_image,
         hand_landmarks_proto,
@@ -92,6 +98,11 @@ with HandLandmarker.create_from_options(options) as landmarker:
         pipeline.start(config)
         start_time = time.time()
 
+
+        #we pose stampin
+        rospy.init_node('hand_pose_publisher', anonymous=True)
+        pose_publisher = rospy.Publisher('/hand_pose', PoseStamped, queue_size=10)
+
         while True:
             
             frames = pipeline.wait_for_frames()
@@ -138,6 +149,32 @@ with HandLandmarker.create_from_options(options) as landmarker:
                 #print(min(timestamps), max(timestamps))
                 
                 n_pts = get3DCoord(wrist_points, intrinsics=intrinsics)
+
+                #poseStamped message begin
+
+                #create PoseStamped message
+                pose_msg = PoseStamped()
+                pose_msg.header.stamp = rospy.Time.now()
+                pose_msg.header.frame_id = "camera_frame"  #TODO Replace with your camera frame name (realsense?)
+                
+                #set position
+                pose_msg.pose.position.x = n_pts[:,0]
+                pose_msg.pose.position.y = n_pts[:,1]
+                pose_msg.pose.position.z = n_pts[:,2]
+                
+                #orientation (not applicable here, so setting it as default)
+                pose_msg.pose.orientation.x = 0.0
+                pose_msg.pose.orientation.y = 0.0
+                pose_msg.pose.orientation.z = 0.0
+                pose_msg.pose.orientation.w = 1.0
+                
+                #publish the message
+                pose_publisher.publish(pose_msg)
+
+                #poseStamped message end
+
+
+                #plot points
                 print(n_pts.shape)
                 print(n_pts[:, 2])
                 fig = plt.figure()
