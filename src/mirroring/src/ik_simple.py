@@ -33,7 +33,10 @@ def main():
             request.ik_request.group_name = "right_arm"
 
             # If a Sawyer does not have a gripper, replace '_gripper_tip' with '_wrist' instead
-            link = "right_gripper_tip"
+              
+            link = "stp_022312TP99620_tip_1" # for amir
+
+            # link = "right_gripper_tip"
 
             request.ik_request.ik_link_name = link
             # request.ik_request.attempts = 20

@@ -142,12 +142,16 @@ with HandLandmarker.create_from_options(options) as landmarker:
                 print(n_pts.shape)
                 #print(n_pts[:, 2])
                 #print(n_pts)
-                sample_window = 5
-                for r in range(0, n_pts.shape[0], sample_window):
-                    print(f'[{np.median(n_pts[r:r+sample_window,0])*0.001}, {np.median(n_pts[r:r+sample_window,1])*0.001}, {np.median(n_pts[r:r+sample_window,2])*0.001}],')
+                sample_window = 2
+                m_pts = np.zeros(n_pts.shape)
+                for r in range(sample_window, n_pts.shape[0] - sample_window):
+                    print(f'[{np.median(n_pts[r - sample_window:r+sample_window,0])*0.001}, {np.median(n_pts[r - sample_window:r+sample_window,1])*0.001}, {np.median(n_pts[r - sample_window:r+sample_window,2])*0.001}],')
+                    m_pts[r, 0] = np.median(n_pts[r - sample_window:r+sample_window,0])*0.001
+                    m_pts[r, 1] = np.median(n_pts[r - sample_window:r+sample_window,1])*0.001
+                    m_pts[r, 2] = np.median(n_pts[r - sample_window:r+sample_window,2])*0.001
                 fig = plt.figure()
                 axes = fig.add_subplot(projection='3d')
-                axes.plot3D(n_pts[:,0], n_pts[:,1], n_pts[:,2], marker='o')
+                axes.plot3D(m_pts[:,0], m_pts[:,1], m_pts[:,2], marker='o')
                 #Set all axis to have the same scale
                 #axes.set_box_aspect([np.ptp(n_pts[:,0]), np.ptp(n_pts[:,1]), np.ptp(n_pts[:,2])])
                 #Color x, y, z axis

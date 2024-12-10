@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import rospy
 from moveit_msgs.srv import GetPositionIK, GetPositionIKRequest, GetPositionIKResponse
+from moveit_msgs.msg import Constraints
 from geometry_msgs.msg import PoseStamped, TransformStamped, Transform, Vector3
 from moveit_commander import MoveGroupCommander
 import numpy as np
@@ -90,7 +91,9 @@ def main():
     # Create the function used to call the service
     compute_ik = rospy.ServiceProxy('compute_ik', GetPositionIK)
 
-    # ar_pos, ar_trans = lookup_tag(5)
+    #Get the transform 
+    #ar_pos, ar_trans = lookup_tag(5)
+    #print(ar_trans)
     
     # manually writing out the transform
     ar_trans = TransformStamped()
@@ -98,44 +101,26 @@ def main():
     ar_trans.child_frame_id = "ar_marker_5"
 
 
-    ar_trans.transform.translation.x = 1.1520635773864734
-    ar_trans.transform.translation.y = 0.09403840735301512
-    ar_trans.transform.translation.z = 0.3057204338258193
-    ar_trans.transform.rotation.x = -0.5550855293497743
-    ar_trans.transform.rotation.y = 0.4649585908687069
-    ar_trans.transform.rotation.z = 0.4652051640233256
-    ar_trans.transform.rotation.w = -0.5091932042455977
+    ar_trans.transform.translation.x = 1.111721371448794
+    ar_trans.transform.translation.y =0.34143258202829513
+    ar_trans.transform.translation.z = 0.30799038163007
+    ar_trans.transform.rotation.x = -0.5357408298438834
+    ar_trans.transform.rotation.y = 0.5801812211635239
+    ar_trans.transform.rotation.z = 0.4957531745456158
+    ar_trans.transform.rotation.w = -0.3613866402834157
     # print(ar_pos)
     print("transform: \n", ar_trans)
+
+    #manually set constraints
+    #moveit_constraints = Constraints()
 
     #tuck()
 
     hand_poses_raw = [
-[0.2792954458227116, 0.20746030396144485, 0.6270000002634611],
-[0.24614906862195018, 0.1985790580698161, 0.6520000002825395],
-[0.2305477627607013, 0.18835894277739518, 0.6450000002643731],
-[0.2178943275923651, 0.17291054853257334, 0.6270000003071394],
-[0.1909910393610335, 0.16106525230357463, 0.6200000003094642],
-[0.14055625862154905, 0.15921390534708685, 0.6460000002205467],
-[0.11097308418590665, 0.18003259607286234, 0.6480000002630933],
-[0.10325810592331426, 0.20527095118681957, 0.6550000002944559],
-[0.10822435146626055, 0.17257472474368754, 0.6530000003145734],
-[0.11648899890722152, 0.07787504074297669, 0.6570000004248486],
-[0.08914648733988616, -0.03245027889705123, 0.6950000002763516],
-[0.02647198196104959, -0.07895627006748025, 0.7300000002158563],
-[-0.04365718476919022, -0.05517612564525457, 0.7510000001332132],
-[-0.09597827025380092, 0.04001302723391594, 0.7620000000577821],
-[-0.08090262237270539, 0.1601825111134928, 0.7530000001346298],
-[-0.01078914234642985, 0.2493981723364537, 0.7390000000792593],
-[0.09274029849907937, 0.26435344943814115, 0.6930000001808035],
-[0.18321075617958604, 0.20754475265929645, 0.65800000028659],
-[0.19973568897137775, 0.11878768307809145, 0.6590000004201225],
-[0.1570671685047608, 0.038208126272829684, 0.6710000003634502],
-[0.07620319488338892, -0.0074318084541192975, 0.6810000002824395],
-[-0.011866743793299134, 0.014948482276233955, 0.6900000001883503],
-[-0.04520379166685437, 0.10826905573207053, 0.6930000001543165],
-[0.0273170809868344, 0.2022444462845896, 0.6730000001436685],
-[0.11496056850127137, 0.22861632267795567, 0.6440000002081814],
+        [0.5,0.5,0.3],
+        [0.2, 0.5, 0.3],
+        [0.2, 0.2, 0.3],
+        [0.5, 0.2, 0.3] 
     ]
 
     hand_poses = []
@@ -161,7 +146,6 @@ def main():
     ]'''
 
     # pos = [hand_rel_base.pose.position.x, hand_rel_base.pose.position.y, hand_rel_base.pose.position.z, 0, 1, 0, 0]
-    
     while not rospy.is_shutdown():
         # input('Press [ Enter ]: ')
         
@@ -171,6 +155,8 @@ def main():
         request.ik_request.group_name = "right_arm"
 
         # If a Sawyer does not have a gripper, replace '_gripper_tip' with '_wrist' instead
+        #link = "stp_022312TP99620_tip_1" # for amir
+
         link = "right_gripper_tip"
 
         request.ik_request.ik_link_name = link
@@ -195,9 +181,12 @@ def main():
             # # Print the response HERE
             # print("hi: ", response)
             group = MoveGroupCommander("right_arm")
-
+            group.set_planner_id("RRTConnectkConfigDefault")
+            group.set_goal_orientation_tolerance(100)
+            
             # Setting position and orientation target
-            # group.set_position_target(pos[:3])
+            #print(hand_poses[0])
+            #group.set_position_target([hand_poses[0].position.x, hand_poses[0].position.y, hand_poses[0].position.z ])
             # group.set_pose_target(request.ik_request.pose_stamped)
             group.set_pose_targets(hand_poses)
 
@@ -207,14 +196,15 @@ def main():
 
             # Plan IK
             plan = group.plan()
-            # user_input = input("Enter 'y' if the trajectory looks safe on RVIZ")
+            
+            user_input = input("Enter 'y' if the trajectory looks safe on RVIZ")
             
             # Execute IK if safe
-            # if user_input == 'y':
-            #     group.execute(plan[1])
-            # elif user_input == 'g':
-            #     break
-            group.execute(plan[1])
+            if user_input == 'y':
+                 group.execute(plan[1])
+            elif user_input == 'n':
+                sys.exit()
+            #group.execute(plan[1])
 
 
 
