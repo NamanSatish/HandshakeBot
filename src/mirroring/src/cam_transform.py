@@ -6,7 +6,45 @@ import numpy as np
 import rospy
 import tf2_ros
 
-from geometry_msgs.msg import TransformStamped
+from geometry_msgs.msg import TransformStamped, PoseStamped
+from moveit_commander import MoveGroupCommander
+
+
+def tuck():
+    """
+    Tuck the robot arm to the start position. Use with caution
+    """
+    if input("Would you like to tuck the arm? (y/n): ") == "y":
+        tuck_pose = [0.4, 0.725, 0.57]
+        tuck_orientation = [0, 0, 0.7, 0.7]
+        camera_tuck = PoseStamped()
+        camera_tuck.pose.position.x = tuck_pose[0]
+        camera_tuck.pose.position.y = tuck_pose[1]
+        camera_tuck.pose.position.z = tuck_pose[2]
+        camera_tuck.pose.orientation.x = tuck_orientation[0]
+        camera_tuck.pose.orientation.y = tuck_orientation[1]
+        camera_tuck.pose.orientation.z = tuck_orientation[2]
+        camera_tuck.pose.orientation.w = tuck_orientation[3]
+        try:
+
+            tuck_group = MoveGroupCommander("right_arm")
+            tuck_group.set_planner_id("RRTConnectkConfigDefault")
+            tuck_group.set_goal_orientation_tolerance(100)
+            tuck_group.set_goal_position_tolerance(0.05)
+
+            tuck_group.set_pose_target(camera_tuck)
+
+            # TRY THIS
+            # Setting just the position without specifying the orientation
+            # group.set_position_target([0.5, 0.5, 0.0])
+
+            # Plan IK
+            plan = tuck_group.plan()
+            tuck_group.execute(plan[1])
+        except rospy.ServiceException as e:
+            print("Service call failed: %s" % e)
+    else:
+        print("Canceled. Not tucking the arm.")
 
 
 def lookup_tag(tag_number):
@@ -72,6 +110,8 @@ def main():
     rospy.init_node("camera_transform")
 
     # Get the transform
+    if input("Would you like to tuck the arm? (y/n): ") == "y":
+        tuck()
     ar_pos, ar_trans = lookup_tag(args.ar_tag)
     # Convert the TransformStamped message to a dictionary
     ar_trans_dict = {
