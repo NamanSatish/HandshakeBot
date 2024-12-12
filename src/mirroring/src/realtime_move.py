@@ -2,44 +2,49 @@
 import rospy
 from moveit_msgs.srv import GetPositionIK, GetPositionIKRequest, GetPositionIKResponse
 from moveit_msgs.msg import Constraints, JointConstraint
-from geometry_msgs.msg import PoseStamped, TransformStamped, Transform, Vector3, PointStamped
+from geometry_msgs.msg import (
+    PoseStamped,
+    TransformStamped,
+    Transform,
+    Vector3,
+    PointStamped,
+)
 from moveit_commander import MoveGroupCommander
 import numpy as np
 from numpy import linalg
 import sys
 
-import sys
 import argparse
-import numpy as np
 import rospkg
 import roslaunch
 
 from paths.trajectories import LinearTrajectory, CircularTrajectory
 from paths.paths import MotionPath
 from paths.path_planner import PathPlanner
-from controllers.controllers import ( 
-    PIDJointVelocityController, 
-    FeedforwardJointVelocityController
+from controllers.controllers import (
+    PIDJointVelocityController,
+    FeedforwardJointVelocityController,
 )
 from utils.utils import *
 
 from trac_ik_python.trac_ik import IK
 
-import rospy
 import tf2_ros
 import intera_interface
 from moveit_msgs.msg import DisplayTrajectory, RobotState
 from sawyer_pykdl import sawyer_kinematics
 
 from tf2_geometry_msgs import do_transform_pose, do_transform_point
+from cam_transform import load_ar_trans
+
 
 def tuck():
     """
     Tuck the robot arm to the start position. Use with caution
     """
-    if input('Would you like to tuck the arm? (y/n): ') == 'y':
-        tuck_pose = [.4, .725, .57]
-        tuck_orientation = [0, 0, .7, .7]
+    if input("Would you like to tuck the arm? (y/n): ") == "y":
+        tuck_pose = [0.4, 0.725, 0.57]
+        tuck_orientation = [0, 0, 0.7, 0.7]
         camera_tuck = PoseStamped()
         camera_tuck.pose.position.x = tuck_pose[0]
         camera_tuck.pose.position.y = tuck_pose[1]
@@ -49,13 +54,12 @@ def tuck():
         camera_tuck.pose.orientation.z = tuck_orientation[2]
         camera_tuck.pose.orientation.w = tuck_orientation[3]
         try:
-        
+
             tuck_group = MoveGroupCommander("right_arm")
             tuck_group.set_planner_id("RRTConnectkConfigDefault")
             tuck_group.set_goal_orientation_tolerance(100)
             tuck_group.set_goal_position_tolerance(0.05)
-           
-            
+
             tuck_group.set_pose_target(camera_tuck)
 
             # TRY THIS
@@ -64,28 +68,28 @@ def tuck():
 
             # Plan IK
             plan = tuck_group.plan()
-            tuck_group.execute(plan[1])     
+            tuck_group.execute(plan[1])
         except rospy.ServiceException as e:
-            print("Service call failed: %s"%e)     
+            print("Service call failed: %s" % e)
     else:
-        print('Canceled. Not tucking the arm.')
+        print("Canceled. Not tucking the arm.")
+
 
 def pose_callback(msg, publisher):
+    # ar_trans = TransformStamped()
+    # ar_trans.header.frame_id = "base"
+    # ar_trans.child_frame_id = "ar_marker_5"
 
-    ar_trans = TransformStamped()
-    ar_trans.header.frame_id = "base"
-    ar_trans.child_frame_id = "ar_marker_5"
+    # ar_trans.transform.translation.x = 1.2470560459434177
+    # ar_trans.transform.translation.y =0.325631514226347
+    # ar_trans.transform.translation.z = 0.3113295629800095
+    # ar_trans.transform.rotation.x = -0.5171229059977078
+    # ar_trans.transform.rotation.y = -0.5753025430376476
+    # ar_trans.transform.rotation.z = 0.45681815857381536
+    # ar_trans.transform.rotation.w = 0.43923576136755066
 
+    ar_trans = load_ar_trans(ar_trans_file="ar_trans.json")
 
-    ar_trans.transform.translation.x = 1.2470560459434177
-    ar_trans.transform.translation.y =0.325631514226347
-    ar_trans.transform.translation.z = 0.3113295629800095
-    ar_trans.transform.rotation.x = -0.5171229059977078
-    ar_trans.transform.rotation.y = -0.5753025430376476
-    ar_trans.transform.rotation.z = 0.45681815857381536
-    ar_trans.transform.rotation.w = 0.43923576136755066
-
-    
     hand_rel_base = do_transform_point(msg.point, transform)
 
     print("Given Point")
@@ -94,6 +98,8 @@ def pose_callback(msg, publisher):
     print(hand_rel_base)
 
     publisher.publish(hand_rel_base)
+
+
 """
     restrict = Constraints()
     restrict.name = "constr"
@@ -150,44 +156,48 @@ def pose_callback(msg, publisher):
         
 
     except rospy.ServiceException as e:
-        print("Service call failed: %s"%e)"""
+        print("Service call failed: %s"%e)
+"""
+
 
 def main():
     tuck()
     # Initialize the ROS node
-    rospy.init_node('arm_controller', anonymous=True)
+    rospy.init_node("arm_controller", anonymous=True)
 
     # Create the static transform for the camera_location frame (broadcast only once)
     tf_broadcaster = tf2_ros.StaticTransformBroadcaster()
 
     # Create a TransformStamped message for the camera_location frame
     global transform
-    transform = TransformStamped()
-    transform.header.stamp = rospy.Time.now()
-    transform.header.frame_id = "base"  # Parent frame (e.g., "base")
-    transform.child_frame_id = "camera_location"  # Name of the new frame
+    transform = load_ar_trans()
+    transform.child_frame_id = "camera_location"  # name new frame
+    # transform = TransformStamped()
+    # transform.header.stamp = rospy.Time.now()
+    # transform.header.frame_id = "base"  # Parent frame (e.g., "base")
+    # transform.child_frame_id = "camera_location"  # Name of the new frame
 
-    # Define the translation (position of the new frame in the base frame)
-    transform.transform.translation.x = 0.9862231938792343
-    transform.transform.translation.y = 0.6982211803285568
-    transform.transform.translation.z = 0.4146117198281746
-    transform.transform.rotation.x = -0.5157978911299365
-    transform.transform.rotation.y = -0.4428540978134041
-    transform.transform.rotation.z = 0.5088505215632815
-    transform.transform.rotation.w = 0.5281135581109083
+    # # Define the translation (position of the new frame in the base frame)
+    # transform.transform.translation.x = 0.9862231938792343
+    # transform.transform.translation.y = 0.6982211803285568
+    # transform.transform.translation.z = 0.4146117198281746
+    # transform.transform.rotation.x = -0.5157978911299365
+    # transform.transform.rotation.y = -0.4428540978134041
+    # transform.transform.rotation.z = 0.5088505215632815
+    # transform.transform.rotation.w = 0.5281135581109083
 
     # Broadcast the static transform (this will be broadcast only once)
     tf_broadcaster.sendTransform(transform)
 
     # Create a publisher for the /hand_point_base topic
-    publisher = rospy.Publisher('/hand_pose_base', PointStamped, queue_size=10)
+    publisher = rospy.Publisher("/hand_pose_base", PointStamped, queue_size=10)
 
     # Create a subscriber for the /hand_pose topic
-    rospy.Subscriber('/hand_pose', PointStamped, pose_callback, publisher)
+    rospy.Subscriber("/hand_pose", PointStamped, pose_callback, publisher)
 
     # Keep the node running
     rospy.spin()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
