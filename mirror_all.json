@@ -1,0 +1,10 @@
+{
+    "steps": [
+        {
+            "axis_x": true,
+            "axis_y": true,
+            "axis_z": true,
+            "duration": 30.0
+        }
+    ]
+}

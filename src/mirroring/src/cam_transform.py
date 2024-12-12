@@ -3,6 +3,7 @@ import json
 import sys
 import numpy as np
 import rospy
+import tf2_ros
 
 def lookup_tag(tag_number):
     """
@@ -36,7 +37,7 @@ def lookup_tag(tag_number):
 
 def main():
     # Get the transform 
-    ar_pos, ar_trans = lookup_tag(5)
+    ar_pos, ar_trans = lookup_tag(8)
     # Convert the TransformStamped message to a dictionary
     ar_trans_dict = {
         'translation': {
@@ -52,9 +53,13 @@ def main():
         }
     }
 
-    folder_path = "/cam_transforms/"
     # Save the dictionary to a JSON file
-    with open(folder_path + 'ar_trans.json', 'w') as json_file:
+    with open('ar_trans.json', 'w') as json_file:
         json.dump(ar_trans_dict, json_file, indent=4)
     print(ar_trans)
     print("------------------")
+
+
+if __name__ == '__main__':
+    rospy.init_node('camera_transform')
+    main()

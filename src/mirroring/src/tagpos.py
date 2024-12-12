@@ -93,11 +93,11 @@ def main():
     #compute_ik = rospy.ServiceProxy('compute_ik', GetPositionIK)
 
 
-    '''#Get the transform 
+    #Get the transform 
     ar_pos, ar_trans = lookup_tag(5)
     print(ar_trans)
     print("------------------")
-    sys.exit()'''
+    sys.exit()
     
     # manually writing out the transform
     ar_trans = TransformStamped()
@@ -105,13 +105,13 @@ def main():
     ar_trans.child_frame_id = "ar_marker_5"
 
 
-    ar_trans.transform.translation.x = 1.2470560459434177
-    ar_trans.transform.translation.y =0.325631514226347
-    ar_trans.transform.translation.z = 0.3113295629800095
-    ar_trans.transform.rotation.x = -0.5171229059977078
-    ar_trans.transform.rotation.y = -0.5753025430376476
-    ar_trans.transform.rotation.z = 0.45681815857381536
-    ar_trans.transform.rotation.w = 0.43923576136755066
+    ar_trans.transform.translation.x = 0.9168308570235706
+    ar_trans.transform.translation.y = 0.7110835508043919
+    ar_trans.transform.translation.z = 0.35409153525141457
+    ar_trans.transform.rotation.x = -0.5372949769275619
+    ar_trans.transform.rotation.y = -0.5311668177057733
+    ar_trans.transform.rotation.z = 0.47656178354926226
+    ar_trans.transform.rotation.w = 0.4495161687827037
 
 
     ar_trans_inv = TransformStamped()
