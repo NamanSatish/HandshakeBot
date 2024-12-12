@@ -34,6 +34,41 @@ from sawyer_pykdl import sawyer_kinematics
 
 from tf2_geometry_msgs import do_transform_pose
 
+def tuck():
+    """
+    Tuck the robot arm to the start position. Use with caution
+    """
+    if input('Would you like to tuck the arm? (y/n): ') == 'y':
+        tuck_pose = [.4, .725, .57]
+        tuck_orientation = [0, 0, .7, .7]
+        camera_tuck = PoseStamped()
+        camera_tuck.pose.position.x = pose[0]
+        camera_tuck.pose.position.y = pose[1]
+        camera_tuck.pose.position.z = pose[2]
+        camera_tuck.pose.orientation.x = tuck_orientation[0]
+        camera_tuck.pose.orientation.y = tuck_orientation[1]
+        camera_tuck.pose.orientation.z = tuck_orientation[2]
+        camera_tuck.pose.orientation.w = tuck_orientation[3]
+        try:
+        
+            tuck_group = MoveGroupCommander("right_arm")
+            tuck_group.set_planner_id("RRTConnectkConfigDefault")
+            tuck_group.set_goal_orientation_tolerance(100)
+            tuck_group.set_goal_position_tolerance(0.05)
+           
+            
+            tuck_group.set_pose_target(camera_tuck)
+
+            # TRY THIS
+            # Setting just the position without specifying the orientation
+            # group.set_position_target([0.5, 0.5, 0.0])
+
+            # Plan IK
+            plan = tuck_group.plan()
+            tuck_group.execute(plan[1])          
+    else:
+        print('Canceled. Not tucking the arm.')
+
 def pose_callback(msg):
 
     ar_trans = TransformStamped()
@@ -115,6 +150,7 @@ def pose_callback(msg):
         print("Service call failed: %s"%e)
 
 def main():
+    tuck()
     # Initialize the ROS node
     rospy.init_node('arm_controller', anonymous=True)
 
