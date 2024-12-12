@@ -190,7 +190,7 @@ def main():
     tf_broadcaster.sendTransform(transform)
 
     # Create a publisher for the /hand_point_base topic
-    publisher = rospy.Publisher("/hand_pose_base", PointStamped, queue_size=10)
+    publisher = rospy.Publisher("/hand_pose_base", PointStamped, queue_size=1)
 
     # Create a subscriber for the /hand_pose topic
     rospy.Subscriber("/hand_pose", PointStamped, pose_callback, publisher)
