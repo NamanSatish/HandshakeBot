@@ -130,7 +130,7 @@ def main():
     )
 
     # Init publisher
-    pose_publisher = rospy.Publisher("/hand_pose", PointStamped, queue_size=10)
+    pose_publisher = rospy.Publisher("/hand_pose", PointStamped, queue_size=1)
 
     with HandLandmarker.create_from_options(options) as landmarker:
         try:
