@@ -33,24 +33,6 @@ from sawyer_pykdl import sawyer_kinematics
 
 from tf2_geometry_msgs import do_transform_pose, do_transform_point
 
-
-def pose_callback(msg, publisher):
-    # Use the existing transform from camera_location to base
-    try:
-        # Now apply the transform to the incoming point
-        transformed_point = do_transform_point(msg, transform)
-
-        # Publish the transformed point
-        publisher.publish(transformed_point)
-
-        # Output the transformed point to the console
-        print("Given Point:", msg)
-        print("Transformed Point:", transformed_point)
-
-    except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
-        rospy.logerr("Transform error: %s" % e)
-
-
 def tuck():
     """
     Tuck the robot arm to the start position. Use with caution
@@ -59,9 +41,9 @@ def tuck():
         tuck_pose = [.4, .725, .57]
         tuck_orientation = [0, 0, .7, .7]
         camera_tuck = PoseStamped()
-        camera_tuck.pose.position.x = pose[0]
-        camera_tuck.pose.position.y = pose[1]
-        camera_tuck.pose.position.z = pose[2]
+        camera_tuck.pose.position.x = tuck_pose[0]
+        camera_tuck.pose.position.y = tuck_pose[1]
+        camera_tuck.pose.position.z = tuck_pose[2]
         camera_tuck.pose.orientation.x = tuck_orientation[0]
         camera_tuck.pose.orientation.y = tuck_orientation[1]
         camera_tuck.pose.orientation.z = tuck_orientation[2]
@@ -82,11 +64,13 @@ def tuck():
 
             # Plan IK
             plan = tuck_group.plan()
-            tuck_group.execute(plan[1])          
+            tuck_group.execute(plan[1])     
+        except rospy.ServiceException as e:
+            print("Service call failed: %s"%e)     
     else:
         print('Canceled. Not tucking the arm.')
 
-def pose_callback(msg):
+def pose_callback(msg, publisher):
 
     ar_trans = TransformStamped()
     ar_trans.header.frame_id = "base"
@@ -102,13 +86,15 @@ def pose_callback(msg):
     ar_trans.transform.rotation.w = 0.43923576136755066
 
     
-    hand_rel_base = do_transform_pose(msg, ar_trans)
+    hand_rel_base = do_transform_point(msg.point, transform)
 
     print("Given Point")
     print(msg)
-    print("TRans Point")
+    print("Trans Point")
     print(hand_rel_base)
 
+    publisher.publish(hand_rel_base)
+"""
     restrict = Constraints()
     restrict.name = "constr"
 
@@ -164,7 +150,7 @@ def pose_callback(msg):
         
 
     except rospy.ServiceException as e:
-        print("Service call failed: %s"%e)
+        print("Service call failed: %s"%e)"""
 
 def main():
     tuck()

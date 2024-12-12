@@ -69,7 +69,7 @@ def get3DCoord(pts, intrinsics):
 def get3DCoordSingle(pt, intrinsics):
     x = pt[2] * (pt[0] - intrinsics.ppx) / intrinsics.fx
     y = pt[2] * (pt[1] - intrinsics.ppy) / intrinsics.fy
-    return np.array([x, y, pt[2]])
+    return np.array([x, y, pt[2]]) * 0.001
 
 def publishCoord(pt, publisher):
     pose_msg = PointStamped()
@@ -77,9 +77,9 @@ def publishCoord(pt, publisher):
     #pose_msg.header.frame_id = "ar_marker_5"  #TODO Replace with your camera frame name (realsense?)
     
     #set position
-    pose_msg.point.x = pt[0] * 0.001
-    pose_msg.point.y = pt[1] * 0.001
-    pose_msg.point.z = pt[2] * 0.001
+    pose_msg.point.x = pt[0]
+    pose_msg.point.y = pt[1]
+    pose_msg.point.z = pt[2]
     
     #orientation (not applicable here, so setting it as default)
     #pose_msg.pose.orientation.x = 0.0
@@ -133,7 +133,7 @@ def main():
             start_time = time.time()
             prev_pt = np.array([0,0,0])
 
-            min_threshold = 0
+            min_threshold = 0.05
             max_threshold = .5
             first_point = True
 
@@ -176,10 +176,10 @@ def main():
                         wrist_points = np.vstack([wrist_points, [640*result.hand_landmarks[0][0].x, 480*result.hand_landmarks[0][0].y, result.hand_landmarks[0][0].z + depth_im[y, x]]])
                         rlt_pt = get3DCoordSingle([640*result.hand_landmarks[0][0].x, 480*result.hand_landmarks[0][0].y, result.hand_landmarks[0][0].z + depth_im[y, x]], intrinsics=intrinsics)
                         print(f"rlt_pt{rlt_pt}, prev_pt {prev_pt}, distance: {np.linalg.norm(prev_pt - rlt_pt)}")
-                        #if ((np.linalg.norm(prev_pt - rlt_pt) > min_threshold and np.linalg.norm(prev_pt - rlt_pt) < max_threshold) or first_point):
-                        publishCoord(rlt_pt, pose_publisher)
-                        prev_pt = rlt_pt
-                        first_point = False
+                        if ((np.linalg.norm(prev_pt - rlt_pt) > min_threshold and np.linalg.norm(prev_pt - rlt_pt) < max_threshold) or first_point):
+                            publishCoord(rlt_pt, pose_publisher)
+                            prev_pt = rlt_pt
+                            first_point = False
                         
             
             
