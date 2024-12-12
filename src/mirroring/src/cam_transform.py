@@ -29,8 +29,6 @@ def tuck():
 
             tuck_group = MoveGroupCommander("right_arm")
             tuck_group.set_planner_id("RRTConnectkConfigDefault")
-            tuck_group.set_goal_orientation_tolerance(100)
-            tuck_group.set_goal_position_tolerance(0.05)
 
             tuck_group.set_pose_target(camera_tuck)
 
@@ -82,19 +80,21 @@ def lookup_tag(tag_number):
 
 def load_ar_trans(ar_trans_file="ar_trans.json", directory="/home/HandshakeBot/src/"):
     """Load the AR tag transform from a JSON file."""
-    with open(directory + ar_trans_file, "r") as ar_trans_json:
-        ar_trans = TransformStamped()
-        ar_trans.header.frame_id = ar_trans_json["header"]["frame"]
-        ar_trans.child_frame_id = ar_trans_json["header"]["child_frame"]
+    with open(ar_trans_file, "r") as json_file:
+        ar_trans_json = json.load(json_file)
+        
+    ar_trans = TransformStamped()
+    ar_trans.header.frame_id = ar_trans_json["header"]["frame"]
+    ar_trans.child_frame_id = ar_trans_json["header"]["child_frame"]
 
-        ar_trans.transform.translation.x = ar_trans_json["translation"]["x"]
-        ar_trans.transform.translation.y = ar_trans_json["translation"]["y"]
-        ar_trans.transform.translation.z = ar_trans_json["translation"]["z"]
+    ar_trans.transform.translation.x = ar_trans_json["translation"]["x"]
+    ar_trans.transform.translation.y = ar_trans_json["translation"]["y"]
+    ar_trans.transform.translation.z = ar_trans_json["translation"]["z"]
 
-        ar_trans.transform.rotation.x = ar_trans_json["rotation"]["x"]
-        ar_trans.transform.rotation.y = ar_trans_json["rotation"]["y"]
-        ar_trans.transform.rotation.z = ar_trans_json["rotation"]["z"]
-        ar_trans.transform.rotation.w = ar_trans_json["rotation"]["w"]
+    ar_trans.transform.rotation.x = ar_trans_json["rotation"]["x"]
+    ar_trans.transform.rotation.y = ar_trans_json["rotation"]["y"]
+    ar_trans.transform.rotation.z = ar_trans_json["rotation"]["z"]
+    ar_trans.transform.rotation.w = ar_trans_json["rotation"]["w"]
 
     return ar_trans
 
@@ -105,13 +105,11 @@ def main():
 
     args = parser.parse_args()
 
-    handshake_directory = "/home/HandshakeBot/src/"
 
     rospy.init_node("camera_transform")
 
     # Get the transform
-    if input("Would you like to tuck the arm? (y/n): ") == "y":
-        tuck()
+    #tuck()
     ar_pos, ar_trans = lookup_tag(args.ar_tag)
     # Convert the TransformStamped message to a dictionary
     ar_trans_dict = {
@@ -130,7 +128,7 @@ def main():
     }
 
     # Save the dictionary to a JSON file
-    with open(handshake_directory + "ar_trans.json", "w") as json_file:
+    with open("ar_trans.json", "w") as json_file:
         json.dump(ar_trans_dict, json_file, indent=4)
     print(ar_trans)
     print("------------------")

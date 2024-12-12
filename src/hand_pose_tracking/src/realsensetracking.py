@@ -161,11 +161,11 @@ def main():
                 depth_im = np.asanyarray(depth.get_data())
                 color_im = np.asanyarray(color.get_data())
 
-                print("Width:", intrinsics.width)
-                print("Height:", intrinsics.height)
-                print("Principal Point (PPX, PPY):", intrinsics.ppx, intrinsics.ppy)
-                print("Focal Length (fx, fy):", intrinsics.fx, intrinsics.fy)
-                print("Distortion Coefficients:", intrinsics.coeffs)
+                #print("Width:", intrinsics.width)
+                #print("Height:", intrinsics.height)
+                #print("Principal Point (PPX, PPY):", intrinsics.ppx, intrinsics.ppy)
+                #print("Focal Length (fx, fy):", intrinsics.fx, intrinsics.fy)
+                #print("Distortion Coefficients:", intrinsics.coeffs)
 
                 mp_image = mp.Image(
                     image_format=mp.ImageFormat.SRGB,
