@@ -1,6 +1,6 @@
 import rospy
 import json
-from geometry_msgs.msg import PointStamped
+from geometry_msgs.msg import PointStamped, Point
 
 
 class ProcedureStep:
@@ -106,6 +106,7 @@ class HandshakeProcedure:
 
     def mirror_and_track(self, step):
         if not self.ar_tag_origin or not self.current_hand_position:
+            print("Missing AR tag origin or hand position. Skipping this step.")
             rospy.logwarn("Missing AR tag origin or hand position. Skipping this step.")
             return
 
@@ -116,25 +117,25 @@ class HandshakeProcedure:
                 target_point = PointStamped()
                 target_point.header.frame_id = "base"
                 target_point.header.stamp = rospy.Time.now()
-                target_point.point = self.current_hand_position.point
+                target_point.point = Point()
 
                 if step.axis_x:  # Mirror
                     target_point.point.x = (
-                        2 * self.ar_tag_origin.point.x - target_point.point.x
+                        2 * self.ar_tag_origin.point.x - self.current_hand_position.point.x
                     )
                 else:  # Track
                     target_point.point.x = self.current_hand_position.point.x
 
                 if step.axis_y:  # Mirror
                     target_point.point.y = (
-                        2 * self.ar_tag_origin.point.y - target_point.point.y
+                        2 * self.ar_tag_origin.point.y - self.current_hand_position.point.y
                     )
                 else:  # Track
                     target_point.point.y = self.current_hand_position.point.y
 
                 if step.axis_z:  # Mirror
                     target_point.point.z = (
-                        2 * self.ar_tag_origin.point.z - target_point.point.z
+                        2 * self.ar_tag_origin.point.z - self.current_hand_position.point.z
                     )
                 else:  # Track
                     target_point.point.z = self.current_hand_position.point.z
@@ -150,6 +151,7 @@ class HandshakeProcedure:
                 f"Executing step with settings: {step.to_dict()} for {step.duration} seconds"
             )
             self.mirror_and_track(step)
+            print("Step completed")
 
 
 if __name__ == "__main__":

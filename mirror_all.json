@@ -2,8 +2,8 @@
     "steps": [
         {
             "axis_x": true,
-            "axis_y": true,
-            "axis_z": true,
+            "axis_y": false,
+            "axis_z": false,
             "duration": 600.0
         }
     ]

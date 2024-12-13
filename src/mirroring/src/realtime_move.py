@@ -47,6 +47,16 @@ def pose_callback(msg, publisher):
     print("Trans Point")
     print(hand_rel_base)
 
+    # Hyperparameters for offsetting the hand position
+    offset_x = -0.1
+    offset_y = 0.2
+    offset_z = 0.05
+
+    # Offset the hand position
+    #hand_rel_base.point.x += offset_x
+    #hand_rel_base.point.y += offset_y
+    #hand_rel_base.point.z += offset_z
+
     publisher.publish(hand_rel_base)
 
 
