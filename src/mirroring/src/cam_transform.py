@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import json
-import sys
 import argparse
 import numpy as np
 import rospy
@@ -12,7 +11,7 @@ from moveit_commander import MoveGroupCommander
 
 def tuck():
     """
-    Tuck the robot arm to the start position. Use with caution
+    Tuck the robot arm to the start position. Use with caution (not operational right now)
     """
     if input("Would you like to tuck the arm? (y/n): ") == "y":
         tuck_pose = [0.4, 0.725, 0.57]
@@ -82,7 +81,7 @@ def load_ar_trans(ar_trans_file="ar_trans.json", directory="/home/HandshakeBot/s
     """Load the AR tag transform from a JSON file."""
     with open(ar_trans_file, "r") as json_file:
         ar_trans_json = json.load(json_file)
-        
+
     ar_trans = TransformStamped()
     ar_trans.header.frame_id = ar_trans_json["header"]["frame"]
     ar_trans.child_frame_id = ar_trans_json["header"]["child_frame"]
@@ -105,11 +104,10 @@ def main():
 
     args = parser.parse_args()
 
-
     rospy.init_node("camera_transform")
 
     # Get the transform
-    #tuck()
+    # tuck()
     ar_pos, ar_trans = lookup_tag(args.ar_tag)
     # Convert the TransformStamped message to a dictionary
     ar_trans_dict = {

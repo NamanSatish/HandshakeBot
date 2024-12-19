@@ -8,7 +8,6 @@ from mediapipe.framework.formats import landmark_pb2
 import numpy as np
 import cv2
 import time
-import sys
 import logging
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
@@ -161,11 +160,11 @@ def main():
                 depth_im = np.asanyarray(depth.get_data())
                 color_im = np.asanyarray(color.get_data())
 
-                #print("Width:", intrinsics.width)
-                #print("Height:", intrinsics.height)
-                #print("Principal Point (PPX, PPY):", intrinsics.ppx, intrinsics.ppy)
-                #print("Focal Length (fx, fy):", intrinsics.fx, intrinsics.fy)
-                #print("Distortion Coefficients:", intrinsics.coeffs)
+                # print("Width:", intrinsics.width)
+                # print("Height:", intrinsics.height)
+                # print("Principal Point (PPX, PPY):", intrinsics.ppx, intrinsics.ppy)
+                # print("Focal Length (fx, fy):", intrinsics.fx, intrinsics.fy)
+                # print("Distortion Coefficients:", intrinsics.coeffs)
 
                 mp_image = mp.Image(
                     image_format=mp.ImageFormat.SRGB,
@@ -256,123 +255,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""
-options = HandLandmarkerOptions(
-    base_options=BaseOptions(model_asset_path='hand_landmarker.task'),
-    running_mode= VisionRunningMode.VIDEO,
-    num_hands = 1
-)
-
-rospy.init_node('hand_pose_publisher', anonymous=True)
-pose_publisher = rospy.Publisher('/hand_pose', PoseStamped, queue_size=10)
-
-
-with HandLandmarker.create_from_options(options) as landmarker:
-    try:
-        pipeline = rs.pipeline()
-
-        config = rs.config()
-        config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 30)
-        config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 30)
-        align = rs.align(rs.stream.color)
-
-        pipeline.start(config)
-        start_time = time.time()
-        prev_pt = np.array([0,0,0])
-
-        min_threshold = .05
-        max_threshold = .5
-        first_point = True
-
- 
-        while True:
-            
-            frames = pipeline.wait_for_frames()
-            frames = align.process(frames)
-            depth = frames.get_depth_frame()
-            color = frames.get_color_frame()
-
-            if not depth: continue
-            if not color: continue
-
-            intrinsics = depth.profile.as_video_stream_profile().intrinsics
-
-            depth_im = np.asanyarray(depth.get_data())
-            color_im = np.asanyarray(color.get_data())
-
-            print("Width:", intrinsics.width)
-            print("Height:", intrinsics.height)
-            print("Principal Point (PPX, PPY):", intrinsics.ppx, intrinsics.ppy)
-            print("Focal Length (fx, fy):", intrinsics.fx, intrinsics.fy)
-            print("Distortion Coefficients:", intrinsics.coeffs)
-                        
-            
-            mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=cv2.cvtColor(color_im, cv2.COLOR_BGR2RGB))
-
-            timestamp = time.time()
-
-            result = landmarker.detect_for_video(mp_image, mp.Timestamp.from_seconds(timestamp).value)
-            rendered_image = draw_hand_landmarks_on_image(mp_image.numpy_view(), result)
-
-            if len(result.hand_landmarks) > 0:
-                x = int(result.hand_landmarks[0][0].x * 640)
-                y = int(result.hand_landmarks[0][0].y * 480)
-                
-                if x >= 0 and x < 640 and y >= 0 and y < 480:
-             
-                    wrist_points = np.vstack([wrist_points, [640*result.hand_landmarks[0][0].x, 480*result.hand_landmarks[0][0].y, result.hand_landmarks[0][0].z + depth_im[y, x]]])
-                    rlt_pt = get3DCoordSingle([640*result.hand_landmarks[0][0].x, 480*result.hand_landmarks[0][0].y, result.hand_landmarks[0][0].z + depth_im[y, x]], intrinsics=intrinsics)
-                    print(f"rlt_pt{rlt_pt}, prev_pt {prev_pt}, distance: {np.linalg.norm(prev_pt - rlt_pt)}")
-                    if ((np.linalg.norm(prev_pt - rlt_pt) > min_threshold and np.linalg.norm(prev_pt - rlt_pt) < max_threshold) or first_point):
-                        publishCoord(rlt_pt, pose_publisher)
-                        prev_pt = rlt_pt
-                        first_point = False
-                    
-        
-           
-            if rendered_image is not None:
-                cv2.imshow('hand landmarks', cv2.cvtColor(rendered_image, cv2.COLOR_RGB2BGR))
-
-            key = cv2.waitKey(1)
-            if key == 27:
-                
-                
-                n_pts = get3DCoord(wrist_points, intrinsics=intrinsics)
-                
-                sample_window = 2
-                m_pts = np.zeros(n_pts.shape)
-                for r in range(sample_window, n_pts.shape[0] - sample_window):
-                    #print(f'[{np.median(n_pts[r - sample_window:r+sample_window,0])*0.001}, {np.median(n_pts[r - sample_window:r+sample_window,1])*0.001}, {np.median(n_pts[r - sample_window:r+sample_window,2])*0.001}],')
-                    m_pts[r, 0] = np.median(n_pts[r - sample_window:r+sample_window,0])*0.001
-                    m_pts[r, 1] = np.median(n_pts[r - sample_window:r+sample_window,1])*0.001
-                    m_pts[r, 2] = np.median(n_pts[r - sample_window:r+sample_window,2])*0.001
-                fig = plt.figure()
-                axes = fig.add_subplot(projection='3d')
-                axes.plot3D(m_pts[:,0], m_pts[:,1], m_pts[:,2], marker='o')
-
-                #Set all axis to have the same scale
-                #axes.set_box_aspect([np.ptp(n_pts[:,0]), np.ptp(n_pts[:,1]), np.ptp(n_pts[:,2])])
-
-                axes.set_xlabel('X')
-                axes.set_ylabel('Y')
-                axes.set_zlabel('Z')
-
-                
-                plt.show()
-                break
-    
-    except Exception as e:
-        print(e)
-        pass
-        
-
-    # Define the translation (position of the new frame in the base frame)
-    transform.transform.translation.x = 0.9168308570235706
-    transform.transform.translation.y = 0.7110835508043919
-    transform.transform.translation.z = 0.35409153525141457
-    transform.transform.rotation.x = -0.5372949769275619
-    transform.transform.rotation.y = -0.5311668177057733
-    transform.transform.rotation.z = 0.47656178354926226
-    transform.transform.rotation.w = 0.4495161687827037
-        """

@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+"""
+Initial testing file for tracking ar tag and moving the robot to specified positions.
+"""
 import rospy
 from moveit_msgs.srv import GetPositionIK, GetPositionIKRequest, GetPositionIKResponse
 from moveit_msgs.msg import Constraints

@@ -121,21 +121,24 @@ class HandshakeProcedure:
 
                 if step.axis_x:  # Mirror
                     target_point.point.x = (
-                        2 * self.ar_tag_origin.point.x - self.current_hand_position.point.x
+                        2 * self.ar_tag_origin.point.x
+                        - self.current_hand_position.point.x
                     )
                 else:  # Track
                     target_point.point.x = self.current_hand_position.point.x
 
                 if step.axis_y:  # Mirror
                     target_point.point.y = (
-                        2 * self.ar_tag_origin.point.y - self.current_hand_position.point.y
+                        2 * self.ar_tag_origin.point.y
+                        - self.current_hand_position.point.y
                     )
                 else:  # Track
                     target_point.point.y = self.current_hand_position.point.y
 
                 if step.axis_z:  # Mirror
                     target_point.point.z = (
-                        2 * self.ar_tag_origin.point.z - self.current_hand_position.point.z
+                        2 * self.ar_tag_origin.point.z
+                        - self.current_hand_position.point.z
                     )
                 else:  # Track
                     target_point.point.z = self.current_hand_position.point.z

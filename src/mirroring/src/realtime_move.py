@@ -1,38 +1,14 @@
 #!/usr/bin/env python
 import rospy
-from moveit_msgs.srv import GetPositionIK, GetPositionIKRequest, GetPositionIKResponse
-from moveit_msgs.msg import Constraints, JointConstraint
 from geometry_msgs.msg import (
     PoseStamped,
-    TransformStamped,
-    Transform,
-    Vector3,
     PointStamped,
-)
-from moveit_commander import MoveGroupCommander
-import numpy as np
-from numpy import linalg
-import sys
-
-import argparse
-import rospkg
-import roslaunch
-
-from paths.trajectories import LinearTrajectory, CircularTrajectory
-from paths.paths import MotionPath
-from paths.path_planner import PathPlanner
-from controllers.controllers import (
-    PIDJointVelocityController,
-    FeedforwardJointVelocityController,
 )
 from utils.utils import *
 
 from trac_ik_python.trac_ik import IK
 
 import tf2_ros
-import intera_interface
-from moveit_msgs.msg import DisplayTrajectory, RobotState
-from sawyer_pykdl import sawyer_kinematics
 
 from tf2_geometry_msgs import do_transform_pose, do_transform_point
 from cam_transform import load_ar_trans, tuck
@@ -53,16 +29,16 @@ def pose_callback(msg, publisher):
     offset_z = 0.05
 
     # Offset the hand position
-    #hand_rel_base.point.x += offset_x
-    #hand_rel_base.point.y += offset_y
-    #hand_rel_base.point.z += offset_z
+    # hand_rel_base.point.x += offset_x
+    # hand_rel_base.point.y += offset_y
+    # hand_rel_base.point.z += offset_z
 
     publisher.publish(hand_rel_base)
 
 
 def main():
     # Initialize the ROS node
-    rospy.init_node("arm_controller", anonymous=True)
+    rospy.init_node("cam_transform", anonymous=True)
 
     # Create the static transform for the camera_location frame (broadcast only once)
     tf_broadcaster = tf2_ros.StaticTransformBroadcaster()
@@ -73,7 +49,6 @@ def main():
     transform.child_frame_id = "camera_location"  # name new frame
     transform.header.stamp = rospy.Time.now()
     transform.header.frame_id = "base"  # Parent frame (e.g., "base")
-
 
     # Broadcast the static transform (this will be broadcast only once)
     tf_broadcaster.sendTransform(transform)
